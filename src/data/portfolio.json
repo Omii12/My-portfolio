@@ -1,0 +1,278 @@
+{
+  "personal": {
+    "name": "Om Pande",
+    "nameSuffix": ".",
+    "role": "Front-End React Developer",
+    "location": "Pune, Maharashtra, India",
+    "email": "ompande2k19@gmail.com",
+    "phone": "+91-7385752800",
+    "linkedin": "https://linkedin.com/in/ompande",
+    "github": "https://github.com/ompande",
+    "available": true,
+    "availableText": "Available for opportunities"
+  },
+
+  "hero": {
+    "greeting": "Hi, I'm",
+    "typedName": "Om Pande.",
+    "description": "Front-End React Developer crafting responsive, performant UIs — clean state management, optimized API integration, and enterprise-grade component architecture.",
+    "ctaPrimary": { "label": "View Projects ↓", "href": "#projects" },
+    "ctaSecondary": {
+      "label": "Get In Touch",
+      "href": "mailto:ompande2k19@gmail.com"
+    },
+    "stats": [
+      { "value": "73", "suffix": "+", "label": "Enterprise UI Components" },
+      { "value": "2", "suffix": "+", "label": "Years Experience" },
+      { "value": "4", "suffix": "+", "label": "Production Projects" },
+      { "value": "8.32", "suffix": "", "label": "CGPA — B.E. (E&TC)" }
+    ]
+  },
+
+  "skills": {
+    "sectionLabel": "Technical Arsenal",
+    "sectionTitle": "Skills & Technologies",
+    "categories": [
+      {
+        "icon": "⚛️",
+        "title": "React Ecosystem",
+        "items": ["React.js", "Redux", "React Router", "Hooks & Context API"]
+      },
+      {
+        "icon": "🎨",
+        "title": "Styling & UI",
+        "items": [
+          "Tailwind CSS",
+          "CSS3 / SCSS",
+          "Ant Design 5",
+          "Material UI & Bootstrap"
+        ]
+      },
+      {
+        "icon": "⚡",
+        "title": "JavaScript",
+        "items": [
+          "ES6+ / TypeScript",
+          "Async / Await",
+          "DOM APIs",
+          "REST API Integration"
+        ]
+      },
+      {
+        "icon": "🟢",
+        "title": "Backend & Database",
+        "items": ["Node.js", "Express.js", "MongoDB", "SQL"]
+      },
+      {
+        "icon": "🔧",
+        "title": "Tools & Workflow",
+        "items": [
+          "Git / GitHub",
+          "VS Code / Cursor",
+          "Postman",
+          "Agile / Scrum"
+        ]
+      },
+      {
+        "icon": "🤖",
+        "title": "AI Dev Tools",
+        "items": ["v0.dev", "Lovable.dev", "Cursor AI", "Java / OOPs / DSA"]
+      }
+    ],
+    "marqueeIcons": [
+      "⚛️",
+      "🎨",
+      "⚡",
+      "📦",
+      "🟢",
+      "🔧",
+      "🔵",
+      "🌐",
+      "🎯",
+      "💾",
+      "🔀",
+      "🤖",
+      "☕",
+      "🧩",
+      "📱",
+      "🔗",
+      "💡",
+      "🚀",
+      "🔍",
+      "🎁",
+      "⚙️",
+      "📐"
+    ]
+  },
+
+  "experience": {
+    "sectionLabel": "Career Path",
+    "sectionTitle": "Professional Experience",
+    "jobs": [
+      {
+        "id": "exp1",
+        "company": "NexGensis Technology",
+        "location": "Pune, India",
+        "role": "React Developer",
+        "locationPin": "📍 Pune, Maharashtra",
+        "defaultOpen": true,
+        "points": [
+          "Optimized the Asset Management System UI by restructuring React components, significantly reducing re-render cycles and improving dashboard responsiveness.",
+          "Implemented workflow modules for asset assignment, return, and maintenance using REST API integration for real-time updates.",
+          "Enhanced front-end performance by refining state management and optimizing component-level logic.",
+          "Developed key features for a Food Truck Management Web App — order processing, vendor tracking, and route scheduling.",
+          "Resolved UI/UX issues through debugging, usability analysis, and accurate API-based rendering.",
+          "Collaborated with cross-functional teams to reduce UI defect rates and enhance overall system reliability."
+        ]
+      },
+      {
+        "id": "exp2",
+        "company": "MRND Lab Pvt. Ltd.",
+        "location": "Pune, India",
+        "role": "Software Intern",
+        "locationPin": "📍 Pune, Maharashtra",
+        "defaultOpen": false,
+        "points": [
+          "Developed a secure UID-authenticated online voting platform ensuring robust user validation integrity.",
+          "Built a clean, user-friendly interface integrated with a backend database for efficient data management.",
+          "Assisted with UI development, testing, and iterative refinement based on feedback cycles."
+        ]
+      }
+    ]
+  },
+
+  "projects": {
+    "sectionLabel": "Work",
+    "sectionTitle": "Featured Projects",
+    "featured": {
+      "badge": "⭐ Open Source Library",
+      "badgeClass": "b-lib",
+      "title": "@nexgensis/core",
+      "subtitle": "Component Library",
+      "description": "Created and published a 73-component enterprise UI library using React, Ant Design 5, Tailwind CSS, and Lucide icons. Features a custom theming engine, full light/dark mode, live documentation site with interactive previews, and dual ES/UMD builds.",
+      "metrics": [
+        { "value": "73", "label": "Components" },
+        { "value": "ES+UMD", "label": "Build Formats" }
+      ],
+      "tags": [
+        "React",
+        "Ant Design 5",
+        "Tailwind CSS",
+        "Lucide",
+        "Theming Engine"
+      ],
+      "mockSections": [
+        "Inputs & Forms",
+        "Data Display",
+        "Feedback",
+        "Navigation"
+      ]
+    },
+    "list": [
+      {
+        "badge": "🚀 Production",
+        "badgeClass": "b-prod",
+        "title": "Asset Management System",
+        "description": "Rebuilt dashboard with optimized React components, reducing re-renders and improving load times. Integrated REST APIs for asset assignment, return, and maintenance workflows.",
+        "tags": ["React.js", "REST API", "State Mgmt", "Ant Design"]
+      },
+      {
+        "badge": "🚀 Production",
+        "badgeClass": "b-prod",
+        "title": "Food Truck Management App",
+        "description": "Built order processing, vendor tracking, and route scheduling modules. Enhanced usability through UI/UX debugging and accurate real-time data rendering with Redux state.",
+        "tags": ["React", "Redux", "Real-time APIs", "UI/UX"]
+      },
+      {
+        "badge": "🎬 Personal",
+        "badgeClass": "b-per",
+        "title": "MovieFlix",
+        "description": "Interactive recommendation platform with search, filters, ratings, and reviews. Collaborative filtering for personalized content suggestions across all devices.",
+        "tags": ["React.js", "Collaborative Filtering", "Responsive"]
+      },
+      {
+        "badge": "🔐 Secure",
+        "badgeClass": "b-sec",
+        "title": "UID-Auth Voting Platform",
+        "description": "Secure online voting system with UID-based authentication, clean UI, and robust backend integration ensuring data integrity and user validation.",
+        "tags": ["Authentication", "Node.js", "MongoDB", "Full Stack"]
+      }
+    ]
+  },
+
+  "about": {
+    "sectionLabel": "About",
+    "sectionTitle": "Passionate about great interfaces",
+    "bio": [
+      "I'm a Front-End React Developer from Pune, building performant, accessible, and visually refined web applications. My focus is on clean component architecture, efficient state management, and delivering real value through code.",
+      "With a background in Electronics & Telecommunications Engineering and hands-on experience in enterprise product development, I bridge the gap between design intent and technical implementation.",
+      "I enjoy creating tools that other developers love to use — from large-scale dashboards to open-source component libraries."
+    ],
+    "highlights": [
+      {
+        "icon": "📦",
+        "title": "Published Library",
+        "value": "73",
+        "valueSuffix": "+",
+        "description": "Enterprise UI components in @nexgensis/core",
+        "tint": ""
+      },
+      {
+        "icon": "⚡",
+        "title": "Experience",
+        "value": "2",
+        "valueSuffix": "+",
+        "description": "Years building production React applications",
+        "tint": "tint-green"
+      },
+      {
+        "icon": "🚀",
+        "title": "Projects",
+        "value": "4",
+        "valueSuffix": "+",
+        "description": "Live products shipped to real users",
+        "tint": "tint-pink"
+      },
+      {
+        "icon": "🎓",
+        "title": "CGPA",
+        "value": "8.32",
+        "valueSuffix": "",
+        "description": "B.E. Electronics & Telecom · PCCOE",
+        "tint": "tint-yellow"
+      }
+    ],
+    "certification": {
+      "icon": "🏅",
+      "title": "Certification",
+      "name": "Core Java",
+      "issuer": "Diamond Mindglance · Certified Developer"
+    },
+    "education": {
+      "degree": "B.E. — Electronics & Telecommunications",
+      "institute": "PCCOE, Pune",
+      "year": "2019–2023",
+      "cgpa": "8.32"
+    }
+  },
+
+  "footer": {
+    "tagline": "Building performant, accessible, and visually refined web applications from Pune, India.",
+    "copyright": "© 2025 Om Pande. All rights reserved.",
+    "techStack": ["React.js", "Tailwind CSS", "Ant Design 5", "Node.js"],
+    "navLinks": [
+      { "emoji": "🏠", "label": "Home", "href": "#hero" },
+      { "emoji": "⚡", "label": "Skills", "href": "#skills" },
+      { "emoji": "💼", "label": "Experience", "href": "#experience" },
+      { "emoji": "🚀", "label": "Projects", "href": "#projects" },
+      { "emoji": "👤", "label": "About", "href": "#about" }
+    ],
+    "projectLinks": [
+      { "emoji": "📦", "label": "@nexgensis/core", "href": "#projects" },
+      { "emoji": "🗂️", "label": "Asset Management", "href": "#projects" },
+      { "emoji": "🍔", "label": "Food Truck App", "href": "#projects" },
+      { "emoji": "🎬", "label": "MovieFlix", "href": "#projects" },
+      { "emoji": "🔐", "label": "Voting Platform", "href": "#projects" }
+    ]
+  }
+}
