@@ -217,9 +217,9 @@
       {
         "icon": "⚡",
         "title": "Experience",
-        "value": "2",
+        "value": "1",
         "valueSuffix": "+",
-        "description": "Years building production React applications",
+        "description": "Year building production React applications",
         "tint": "tint-green"
       },
       {
