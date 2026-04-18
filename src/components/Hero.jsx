@@ -67,38 +67,46 @@ export default function Hero() {
       className="pt-[calc(var(--nav-h)+80px)] pb-[100px] max-sm:pt-[calc(60px+40px)] max-sm:pb-[60px]">
       <div className="max-w-[1200px] mx-auto px-14 relative z-[1] max-md:px-6 max-sm:px-4">
 
-        <p className="al-item text-base font-medium text-[var(--text3)] tracking-[0.08em] mb-2.5 min-h-[1.4rem] max-sm:text-[0.9rem]"
-           style={{ '--al-i': 0 }}>
+        {/* Role tag */}
+        <div className="al-item flex items-center gap-2.5 mb-5" style={{ '--al-i': 0 }}>
+          <span className="text-[0.78rem] font-semibold tracking-[0.14em] uppercase text-[var(--text3)]">
+            Software Developer
+          </span>
+          <span className="text-[0.65rem] font-medium tracking-[0.08em] uppercase text-accent bg-[rgba(108,99,255,0.1)] border border-[rgba(108,99,255,0.2)] px-2 py-[2px] rounded-md">
+            {hero.roleTag}
+          </span>
+        </div>
+
+        {/* Name */}
+        <p className="al-item text-base font-medium text-[var(--text3)] tracking-[0.08em] mb-1 min-h-[1.4rem] max-sm:text-[0.9rem]"
+           style={{ '--al-i': 1 }}>
           {greeting}
         </p>
 
-        <h1 className="al-item text-[clamp(3.2rem,7.5vw,7rem)] font-bold leading-[1.02] tracking-[-0.03em] mb-6 text-accent min-h-[1.1em] max-sm:text-[clamp(2.6rem,12vw,4rem)] max-sm:mb-4"
-            style={{ '--al-i': 1 }}>
+        <h1 className="al-item text-[clamp(3.2rem,7.5vw,7rem)] font-bold leading-[1.02] tracking-[-0.03em] mb-7 text-accent min-h-[1.1em] max-sm:text-[clamp(2.6rem,12vw,4rem)] max-sm:mb-5"
+            style={{ '--al-i': 2 }}>
           {name}
         </h1>
 
-        <p className="al-item text-[clamp(0.95rem,1.4vw,1.1rem)] text-[var(--text2)] max-w-[560px] font-light mb-9 leading-[1.8] max-sm:text-[0.93rem] max-sm:mb-7"
-           style={{ '--al-i': 2 }}>
+        {/* Description */}
+        <p className="al-item text-[clamp(0.95rem,1.4vw,1.08rem)] text-[var(--text2)] max-w-[520px] font-light mb-10 leading-[1.85] max-sm:text-[0.93rem] max-sm:mb-7"
+           style={{ '--al-i': 3 }}>
           {hero.description}
         </p>
 
-        <div className="al-item flex gap-3 flex-wrap max-sm:gap-2.5" style={{ '--al-i': 3 }}>
+        {/* Single CTA */}
+        <div className="al-item" style={{ '--al-i': 4 }}>
           <RippleBtn
             href={hero.ctaPrimary.href}
             className="btn-primary bg-accent text-white shadow-[0_4px_24px_var(--accent-glow)] hover:shadow-[0_8px_36px_var(--accent-glow)]">
             {hero.ctaPrimary.label}
           </RippleBtn>
-          <RippleBtn
-            href={hero.ctaSecondary.href}
-            className="btn-outline bg-transparent text-[var(--text)] border border-[var(--border)] hover:border-accent hover:text-accent hover:bg-[rgba(108,99,255,0.06)]">
-            {hero.ctaSecondary.label}
-          </RippleBtn>
         </div>
 
         {/* Stats */}
-        <div className="flex gap-12 flex-wrap mt-13 pt-9 border-t border-[var(--border)] max-sm:gap-6 max-sm:mt-9 max-sm:pt-7">
+        <div className="flex gap-12 flex-wrap mt-14 pt-9 border-t border-[var(--border)] max-sm:gap-6 max-sm:mt-9 max-sm:pt-7">
           {hero.stats.map((stat, i) => (
-            <div key={stat.label} className="al-item" style={{ '--al-i': i + 4 }}>
+            <div key={stat.label} className="al-item" style={{ '--al-i': i + 5 }}>
               <div className="text-[2rem] font-bold text-[var(--text)] leading-none tracking-[-0.04em] max-sm:text-[1.6rem]">
                 {stat.value}{stat.suffix && <em className="text-accent not-italic">{stat.suffix}</em>}
               </div>
@@ -110,7 +118,7 @@ export default function Hero() {
         {/* Available badge */}
         {personal.available && (
           <div className="al-item inline-flex items-center gap-2 bg-[var(--surface)] border border-[var(--border)] px-3.5 py-1.5 rounded-full text-[0.78rem] font-medium text-[var(--text2)] mt-7 max-sm:text-[0.73rem]"
-               style={{ '--al-i': 8 }}>
+               style={{ '--al-i': 9 }}>
             <span className="w-[7px] h-[7px] rounded-full bg-accent3 animate-pulse-glow shrink-0" />
             {personal.availableText}
           </div>

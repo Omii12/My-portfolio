@@ -2,7 +2,7 @@
   "personal": {
     "name": "Om Pande",
     "nameSuffix": ".",
-    "role": "Front-End React Developer",
+    "role": "Software Developer",
     "location": "Pune, Maharashtra, India",
     "email": "ompande2k19@gmail.com",
     "phone": "+91-7385752800",
@@ -15,15 +15,12 @@
   "hero": {
     "greeting": "Hi, I'm",
     "typedName": "Om Pande.",
-    "description": "Front-End React Developer crafting responsive, performant UIs — clean state management, optimized API integration, and enterprise-grade component architecture.",
-    "ctaPrimary": { "label": "View Projects ↓", "href": "#projects" },
-    "ctaSecondary": {
-      "label": "Get In Touch",
-      "href": "mailto:ompande2k19@gmail.com"
-    },
+    "roleTag": "frontend",
+    "description": "I build interfaces that people actually enjoy using. Right now I'm focused on React — turning designs into fast, accessible UIs and figuring out the cleanest way to manage state without overcomplicating things.",
+    "ctaPrimary": { "label": "See my work ↓", "href": "#projects" },
     "stats": [
-      { "value": "73", "suffix": "+", "label": "Enterprise UI Components" },
-      { "value": "2", "suffix": "+", "label": "Years Experience" },
+      { "value": "1", "suffix": "+", "label": "Year Experience" },
+      { "value": "73", "suffix": "+", "label": "UI Components Built" },
       { "value": "4", "suffix": "+", "label": "Production Projects" },
       { "value": "8.32", "suffix": "", "label": "CGPA — B.E. (E&TC)" }
     ]
